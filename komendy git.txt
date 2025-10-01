@@ -1,0 +1,36 @@
+git remote -v                       # sprawdzenie repozytorium
+git remote remove origin            # Zrywa połączenie z repozytorium
+
+
+Remove-Item -Recurse -Force .git    # usunięccie repozytorium
+
+
+1. Inicjowanie
+git init                            # inicjowanie repozytorium
+git status                          # informuje o git
+git add .                           # dodawanie plików do repozytorium
+git commit -m 'initialize project'  #inicjalizacja projektu
+
+2. Dodawanie requirements i packades
+git add .                           # dodawanie plików do repozytorium
+git commit -m 'packages'
+git push
+
+3. Dodawanie sekretów
+git add .                           # dodawanie plików do repozytorium
+git commit -m 'secrets menagment'
+git push
+
+
+
+
+
+
+podmiana plików 
+git add packages.txt
+git commit -m "Aktualizacja packages.txt"
+git push origin main                        #dla głównej gałęzi
+
+git add requirements.txt
+git commit -m "Aktualizacja requirements.txt"
+git push origin main
