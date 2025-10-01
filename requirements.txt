@@ -1,0 +1,9 @@
+streamlit==1.45.0
+plotly==5.24.1
+pandas==2.1.4
+openai==1.47.0
+pydantic==2.9.2
+pycaret==3.3.2
+python-dotenv==1.1.0
+numpy==1.26.4
+qdrant-client
